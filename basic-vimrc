@@ -46,7 +46,8 @@ endif
 
 " Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-  \| PlugInstall --sync | source $MYVIMRC
+  \| PlugInstall --sync | source $MYVIMRC | colorscheme gruvbox
+\| else | colorscheme gruvbox
 \| endif
 
 call plug#begin('~/.vim/plugged')
@@ -57,7 +58,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
-set colorscheme gruvbox
 let mapleader = " "
 
 "let g:airline_theme='base16_londontube'
