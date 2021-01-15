@@ -11,6 +11,7 @@ set bs=2
 autocmd BufWritePre * %s/\s\+$//e
 
 set nowrap
+set bg=dark 
 set encoding=utf-8
 set expandtab
 set tabstop=4 softtabstop=4 shiftwidth=4
