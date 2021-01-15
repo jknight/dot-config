@@ -6,7 +6,6 @@ set hidden                    " Without this option, whenever a changed buffer g
 set diffopt+=vertical
 
 set bs=2
-set cursorline
 
 " Remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
