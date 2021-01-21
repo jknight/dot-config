@@ -36,9 +36,6 @@ set cmdheight=1
 " delays and poor user experience.
 set updatetime=50
 
-set guifont=Fira\ Code:h20
-
-
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
