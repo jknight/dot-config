@@ -1,2 +1,1 @@
-# vimrc
-vimrc
+vimrc, bashrc, alacritty.yml, etc
