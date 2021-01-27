@@ -34,28 +34,29 @@ colors:
 font:
 
   # Point size of the font
-  size: 20.0
+  size: 22.0
 
   # The normal (roman) font face to use.
   normal:
-    family: Fira Code
+    family: IBM Plex Mono
+    #family: Fira Code
     style: Regular
 
   # The bold font face
   bold:
-    family: Fira Code
+    family: IBM Plex Mono
     style: Bold
 
   # The italic font face
   italic:
-    family: Fira Code
+    family: IBM Plex Mono
     style: Italic
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
-  offset:
-    x: 1
-    y: 1
+  #offset:
+  #  x: 1
+  #  y: 1
 
   # OS X only: use thin stroke font rendering. Thin strokes are suitable
   # for retina displays, but for non-retina you probably want this set to
@@ -69,7 +70,7 @@ window:
   # DPI and the specified value is always added at both opposing sides.
   padding:
     x: 20
-    y: 20
+    y: 0
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: false
