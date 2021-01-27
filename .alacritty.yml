@@ -104,3 +104,6 @@ window:
   # - buttonless: title bar, transparent background, but no title bar buttons
   decorations: full
 
+key_bindings:
+  - { key: PageUp,                        chars: "\x1b[5~"                     }
+  - { key: PageDown,                      chars: "\x1b[6~"                     }
