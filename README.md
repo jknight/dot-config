@@ -1,1 +1,1 @@
-vimrc, bashrc, alacritty.yml, etc
+My vim and aacritty config files.
